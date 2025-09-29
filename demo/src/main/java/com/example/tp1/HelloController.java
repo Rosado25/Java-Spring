@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.tp1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-	@GetMapping("/bonjour")
-	public String bonjour() {
-		return "Bonjour le monde !";
-	}
+    @GetMapping("/bonjour")
+    public String bonjour() {
+        return "Bonjour le monde !";
+    }
 }
